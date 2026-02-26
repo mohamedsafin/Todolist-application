@@ -5,7 +5,7 @@ function Login(props){
 
 const navigate =useNavigate()
 const user=props.user
-const setuser=props.setruser  
+
 
 const[InpUsername,setInpUsername]=useState("")
 
