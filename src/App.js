@@ -1,6 +1,3 @@
-import Header from "./components/Header";
-import Cards from "./components/Cards";
-import Todolist from "./components/Todolist"; 
 import {Route,Routes,BrowserRouter} from "react-router-dom"
 import { useState } from "react";
 import Login from "./pages/Login";

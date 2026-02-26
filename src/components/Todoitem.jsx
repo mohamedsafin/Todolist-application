@@ -5,7 +5,7 @@ function Todoitem(props){
 
     function handlechange(deleteid){
         var temparr=activityarr.filter(function(item){
-            if(item.id==deleteid){
+            if(item.id===deleteid){
                 return false
             }
             else{
